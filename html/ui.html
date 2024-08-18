@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de Denuncia</title>
+</head>
+<body>
+    <div class="form-container" id="formContainer" style="display: none;">
+        <h2>Formulario de Denuncia</h2>
+        <p class="small-text">Rellene esta ficha y dásela a Manolo y él tramita la denuncia.</p>
+        <form id="denunciaForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono" maxlength="10" required>
+
+            <label for="motivo">Motivo de la Denuncia:</label>
+            <textarea id="motivo" name="motivo" rows="4" placeholder="Describe el motivo de tu denuncia" required></textarea>
+
+            <button type="submit">Enviar</button>
+            <button type="button" id="cerrar">Cerrar</button>
+        </form>
+        
+        <!-- Texto en pequeño debajo del formulario -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
