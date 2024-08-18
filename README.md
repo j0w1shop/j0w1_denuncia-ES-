@@ -9,6 +9,6 @@ Hola este script está hecho para todos aquellos que en su servidor los policía
 
 - **Poner el script en un archivo**
 - Introducir en el servidor.cfg y ponerlo abajo del ox_target ej: **ensure ox_target**
-- **asegurar las denunciasj0w1_**
+- **ensure j0w1_denuncias**
 
 Y con esto tienes el script
